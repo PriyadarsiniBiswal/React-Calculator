@@ -7,13 +7,9 @@ body{
     padding: 0;
     background: linear-gradient(to right, #00AAFF, #00ff6c);
 }
-@media screen and(min-width: 600px) {
+@media screen and(min-width: 550px) {
     .calculator-grid{
-        width: 500px;
-        height: auto;
-    }
-    .calculator-grid{
-       
+        margin-top: 1.5rem;
         grid-template-columns: repeat(4, 5rem);
         grid-template-rows: minmax(7rem, auto) repeat(5, 5rem);
     }
